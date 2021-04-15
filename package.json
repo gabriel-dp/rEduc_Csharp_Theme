@@ -1,0 +1,49 @@
+{
+    "name": "reduc-csharp-dracula",
+    "displayName": "rEduc/C# Dracula Theme",
+    "description": "Dracula-based color theme for sBotics",
+    "version": "1.0.0",
+    "publisher": "Gabrieldp-dev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gabrieldp23/sBotics_Snippets_vscode"
+    },
+    "icon": "icon-dracula.png",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "galleryBanner": {
+        "color": "#282A36",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "tema",
+        "color-theme",
+        "C#",
+        "csharp",
+        "reduc",
+        "rEduc",
+        "sbotics",
+        "sBotics",
+        "sboticsC",
+        "sboticsR"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "rEduc Dracula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rEduc_dracula-color-theme.json"
+            },
+            {
+                "label": "C# Dracula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/csharp_dracula-color-theme.json"
+            }
+        ]
+    }
+}
