@@ -2,7 +2,7 @@
     "name": "reduc-csharp-dracula",
     "displayName": "rEduc/C# Dracula Theme",
     "description": "Dracula-based color theme for sBotics",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "Gabrieldp-dev",
     "repository": {
         "type": "git",
@@ -46,5 +46,8 @@
                 "path": "./themes/csharp_dracula-color-theme.json"
             }
         ]
-    }
+    },
+    "extensionDependencies": [
+        "sbotics-simulator.sbotics-extension"
+    ]
 }

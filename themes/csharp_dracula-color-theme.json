@@ -1159,63 +1159,16 @@
 			}
 		},
 		{
-			"name": "structures",
+			"name": "Function, Special Method",
 			"scope": [
-				"structures.control.sboticsC",
-				"structures.control"
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
-			}
-		},
-		{
-			"name": "read",
-			"scope": [
-				"read.control.sboticsC",
-				"read.control"
-			],
-			"settings": {
-				"foreground": "#FFF461"
-			}
-		},
-		{
-			"name": "variables",
-			"scope": [
-				"variables.control.sboticsC",
-				"variables.control"
-			],
-			"settings": {
-				"foreground": "#579DD9"
-			}
-		},
-		{
-			"name": "write",
-			"scope": [
-				"write.control.sboticsC",
-				"write.control"
-			],
-			"settings": {
-				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "others",
-			"scope": [
-				"others.control.sboticsC",
-				"others.control"
-			],
-			"settings": {
-				"foreground": "#B46CEA"
-			}
-		},
-		{
-			"name": "movement",
-			"scope": [
-				"movement.control.sboticsC",
-				"movement.control"
-			],
-			"settings": {
-				"foreground": "#8AF187"
 			}
 		},
 		{
@@ -1240,16 +1193,74 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "structures",
 			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
+				"structures.control.sboticsC",
+				"structures.control"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"name": "comment",
+			"scope": [
+				"comment.control.sboticsC",
+				"comment.control",
+				"punctuation.definition.comment.sboticsC"
+			],
+			"settings": {
+				"foreground": "#4C566A"
+			}
+		},
+		{
+			"name": "variables",
+			"scope": [
+				"variables.control.sboticsC",
+				"variables.control"
+			],
+			"settings": {
+				"foreground": "#579DD9"
+			}
+		},
+		{
+			"name": "movement",
+			"scope": [
+				"movement.control.sboticsC",
+				"movement.control"
+			],
+			"settings": {
+				"foreground": "#8AF187"
+			}
+		},
+		{
+			"name": "read",
+			"scope": [
+				"read.control.sboticsC",
+				"read.control"
+			],
+			"settings": {
+				"foreground": "#FFF461"
+			}
+		},
+		{
+			"name": "write",
+			"scope": [
+				"write.control.sboticsC",
+				"write.control"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "others",
+			"scope": [
+				"others.control.sboticsC",
+				"others.control"
+			],
+			"settings": {
+				"foreground": "#B46CEA"
 			}
 		},
 	]
